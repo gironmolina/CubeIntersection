@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeIntersection.ConsoleApp", "CubeIntersection\CubeIntersection.ConsoleApp.csproj", "{A44E237B-7F4C-47F4-BDD5-DC7CCF6D7CBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeIntersection.Domain", "CubeIntersection.Domain\CubeIntersection.Domain.csproj", "{1D49F54C-3A54-43A1-9393-0BA58CC7BAAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B4D16E67-8DE6-45C5-8D66-2E33261A8C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeIntersection.UnitTests", "CubeIntersection.UnitTests\CubeIntersection.UnitTests.csproj", "{4F4EEB70-9857-41C2-8C06-A54AF3FBDC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeIntersection.Model", "CubeIntersection.Model\CubeIntersection.Model.csproj", "{31E1D4AB-20DE-47C1-8FC7-E388104D634C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A44E237B-7F4C-47F4-BDD5-DC7CCF6D7CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44E237B-7F4C-47F4-BDD5-DC7CCF6D7CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44E237B-7F4C-47F4-BDD5-DC7CCF6D7CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44E237B-7F4C-47F4-BDD5-DC7CCF6D7CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D49F54C-3A54-43A1-9393-0BA58CC7BAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D49F54C-3A54-43A1-9393-0BA58CC7BAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D49F54C-3A54-43A1-9393-0BA58CC7BAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D49F54C-3A54-43A1-9393-0BA58CC7BAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4EEB70-9857-41C2-8C06-A54AF3FBDC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4EEB70-9857-41C2-8C06-A54AF3FBDC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4EEB70-9857-41C2-8C06-A54AF3FBDC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4EEB70-9857-41C2-8C06-A54AF3FBDC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E1D4AB-20DE-47C1-8FC7-E388104D634C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E1D4AB-20DE-47C1-8FC7-E388104D634C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E1D4AB-20DE-47C1-8FC7-E388104D634C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E1D4AB-20DE-47C1-8FC7-E388104D634C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F4EEB70-9857-41C2-8C06-A54AF3FBDC19} = {B4D16E67-8DE6-45C5-8D66-2E33261A8C9F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8E46046-DFBA-4B83-99A8-0FB1359D940A}
+	EndGlobalSection
+EndGlobal
