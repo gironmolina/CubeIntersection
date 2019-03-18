@@ -11,7 +11,8 @@ namespace CubeIntersection.ConsoleApp
         {
             var serviceProvider = new ServiceCollection()
                 .AddLogging()
-                .AddSingleton<ICube, Cube>()
+                .AddSingleton<ICubeService, CubeService>()
+                .AddSingleton<IBorderService, BorderService>()
                 .BuildServiceProvider();
 
             //configure console logging
