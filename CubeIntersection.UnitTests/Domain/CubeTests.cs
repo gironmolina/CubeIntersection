@@ -7,7 +7,7 @@ namespace CubeIntersection.UnitTests.Domain
     public class CubeTests
     {
         [Fact]
-        public void Cube_ThatDoNotCollides_ShouldReturnFalse()
+        public void CubeService_ThatDoNotCollides_ShouldReturnFalse()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -22,7 +22,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_ThatOverlap_ShouldReturnTrue()
+        public void CubeService_ThatOverlap_ShouldReturnTrue()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -37,7 +37,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_ThatCollides_ShouldReturnTrue()
+        public void CubeService_ThatCollides_ShouldReturnTrue()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -53,7 +53,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_ThatDoNotIntersect()
+        public void CubeService_ThatDoNotIntersect()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -68,7 +68,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_WithSameHeightAndDepth()
+        public void CubeService_WithSameHeightAndDepth()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -83,7 +83,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_WithSameWithAndDepth()
+        public void CubeService_WithSameWithAndDepth()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -98,7 +98,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_WithSameWithAndHeight()
+        public void CubeService_WithSameWithAndHeight()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -113,7 +113,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_OneCubeIsContainedWithinTheOther()
+        public void CubeService_OneCubeIsContainedWithinTheOther()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -128,7 +128,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_AreCompletelyOverlapped()
+        public void CubeService_AreCompletelyOverlapped()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -143,7 +143,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_AreTouchingButNotIntersecting()
+        public void CubeService_AreTouchingButNotIntersecting()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
@@ -158,7 +158,7 @@ namespace CubeIntersection.UnitTests.Domain
         }
 
         [Fact]
-        public void Cube_IsCommutative()
+        public void CubeService_IsCommutative()
         {
             // Arrange
             var cubeService = new CubeService(new BorderService());
